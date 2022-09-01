@@ -1,0 +1,5 @@
+[
+    { "questionText": "Умеет собака плавать ?", "answers": [{"text":"Не знаю" , "correct":false} , {"text":"Умеет" , "correct":true}  , {"text":"Не умеет" , "correct":false}  , {"text":"Я сырник" , "correct":false}  ] },
+    { "questionText": "Я Данила ?", "answers": [{"text":"ХЗ" , "correct":false} , {"text":"Конечно" , "correct":true}  , {"text":"Олег" , "correct":false}  , {"text":"Кру-кру" , "correct":false}  ] },
+    { "questionText": "Умеет собака плавать ?", "answers": [{"text":"Не знаю" , "correct":false} , {"text":"Умеет" , "correct":true}  , {"text":"Не умеет" , "correct":false}  , {"text":"Я сырник" , "correct":false}  ] }
+  ]
