@@ -1,8 +1,13 @@
-function newQuestions(questions) {
+const NEW_QUESTIONS = 'NEW_QUESTIONS'
+
+function newQuestions(questionsArr) {
     return {
-      type: 'a',
+      type: NEW_QUESTIONS,
       payload: {
-        questions: questions
+        questionsArr: questionsArr
       },
     };
 }
+
+
+export {newQuestions , NEW_QUESTIONS}

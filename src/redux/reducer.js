@@ -1,4 +1,4 @@
-
+import { NEW_QUESTIONS } from "./actions";
 
 const initialState = {
     questionsArr: [],
@@ -8,12 +8,13 @@ const initialState = {
 };
 
 function reducer(state = initialState, action) {
-    const { questionsArr } = state;
-
-
-    switch (action.type) {
-
+  
+    if(action.type === NEW_QUESTIONS){
+        const newQuestionsArr = action.payload.questionsArr;
+        const newState = {...state , questionsArr: newQuestionsArr}
+        return newState;
     }
+
     return state;
 }
 
