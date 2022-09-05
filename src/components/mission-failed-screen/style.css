@@ -28,3 +28,10 @@
 .MissionFailedScreen-button:first-child{
     margin-bottom: 20px;
 }
+
+@Media (max-width : 900px) {
+    .MissionFailedScreen{
+        background-repeat: no-repeat;
+        background-color: black;
+    }
+}

@@ -23,8 +23,24 @@
     justify-content: center;
 }
 
+.GameField-answers :last-child{
+    flex-wrap: nowrap;
+}
+
 .GameField-btn{
     width: 280px;
     height: 130px;
     margin: 30px;
+}
+
+@Media(max-width:1700px ){
+    .GameField-answers{
+        width: 700px;
+    }
+}
+
+@Media(max-width:1200px ){
+    .GameField-answers{
+        width: auto
+    }
 }
